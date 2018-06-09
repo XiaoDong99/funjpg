@@ -1,0 +1,102 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="applicable-device" content="pc" />
+<meta name="renderer" content="webkit" />
+<title>
+FunJPG - 搞笑图片 - 搞笑图片大全 - 搞笑图片网</title>
+<link rel="icon"
+  href="http://www.funjpg.com/wp-content/themes/xiaodong/Assets/index/images/favicon.ico"
+  type="image/x-icon">
+<meta name="keywords" content="搞笑图片" />
+<meta name="description" content="分享幽默搞笑图片，FunJPG前身为木蚂蚱娱乐网。" />
+<link rel="alternate" type="application/rss+xml"
+  title="FunJPG" href=http://www.funjpg.com rss"/>
+<link rel="stylesheet" href="http://www.funjpg.com/wp-content/themes/xiaodong/style.css"
+  type="text/css" media="screen" />
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.4.4/jquery.min.js"></script>
+<script>var duoshuoQuery = {short_name:"funjpg"};</script>
+<script>
+$(function (){
+  $(window).scroll(function (){
+    if($(window).scrollTop() > 200){
+      $('.return-top').fadeIn(500);
+    }else{
+      $('.return-top').fadeOut(500);
+    }
+  });
+  // 点击跳转到顶部
+  $('.return-btn').click(function (){
+    $('html,body').animate({scrollTop:0}, 1000);
+  });
+  
+  // 处理图片高度
+  $('.j-funny').each(function (){
+    $h = $(this).height();
+    if($(this).height() >= 1000){
+      $(this).css({'height':'800px', 'overflow':'hidden'});
+      $(this).after('<dd class="joke-content-area"><a href="javascript:void(0)" class="joke-height-h" data-height="'+$h+'">展开</a></dd>');
+      $('.joke-height-h').toggle(function (){
+        $(this).parent().prev().animate({'height':''+$(this).attr('data-height')+'', 'overflow':'hidden'}, 500);
+        $(this).attr({'class':'joke-height-k'}).text('收起');
+      }, function (){
+        $(this).parent().prev().animate({'height':'800px', 'overflow':'hidden'}, 300);
+        $(this).attr({'class':'joke-height-h'}).text('展开');
+      });
+    }
+  });
+})
+var clickcount = 0;
+function toggleDuoshuoComments(container, id, url){
+  clickcount++;
+    var el = document.createElement('div');
+    el.setAttribute('data-thread-key', id);
+    el.setAttribute('data-url', url);
+    DUOSHUO.EmbedThread(el);
+  if(clickcount == 1){
+    if(jQuery(container).html() == ''){
+      jQuery(container).html(el).slideDown(300);
+    }else{
+      jQuery(container).slideUp(300).html('');
+      clickcount = 0;
+    }
+  }else{
+    if(jQuery(container).html() == ''){
+      jQuery(container).html(el).slideDown(300);
+    }else{
+      jQuery(container).slideUp(300).html('');
+      clickcount = 0;
+    }
+    
+  }
+}
+</script>
+<link rel='dns-prefetch' href='//www.funjpg.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+    <style type="text/css">
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wti_like_post_script-css'  href='http://www.funjpg.com/wp-content/plugins/wti-like-post/css/wti_like_post.css?ver=4.8.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.funjpg.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.funjpg.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wtilp = {"ajax_url":"http:\/\/www.funjpg.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.funjpg.com/wp-content/plugins/wti-like-post/js/wti_like_post.js?ver=4.8.6'></script>
+<link rel='https://api.w.org/' href='http://www.funjpg.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.funjpg.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.funjpg.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.6" />
+</head>

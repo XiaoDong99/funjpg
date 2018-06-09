@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+    {include file="header"}
+    <body>
+        <!-- 顶部-开始 -->
+        <div class="header">
+            <div class="header-nav clearfix">
+                <div class="logo">
+                    <a href="/">
+                        <img src="http://www.funjpg.com/wp-content/themes/xiaodong/Assets/index/images/logo.png"/>
+                    </a>
+                </div>
+                <ul class="clearfix menu">
+                    <div class="menu-%e9%a6%96%e9%a1%b5-container">
+                        <ul class="menu" id="menu-%e9%a6%96%e9%a1%b5">
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-71" id="menu-item-71">
+                                <a href="http://www.funjpg.com/tupian">
+                                    搞笑图片
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4556" id="menu-item-4556">
+                                <a href="http://www.funjpg.com/zuigaoxiao">
+                                    最搞笑
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24764" id="menu-item-24764">
+                                <a href="http://www.funjpg.com/music">
+                                    来点音乐
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+                <!-- <ul class="clearfix menu"><li><a href="/">最新笑话</a></li><li><a 
+  href="/newjokes/hotjoke">热门笑话</a></li><li><a href="/tags">笑点</a></li><li><a 
+  href="/newjokes/godreply">神回复</a></li><li><a href="/shop">积分商城</a></li></ul> -->
+                <script type="text/javascript">
+                    var test = 0;
+                </script>
+            </div>
+        </div>
+        <!-- 顶部-结束 -->
+        <div class="main clearfix">
+            <div class="main-left fl" id="j-main-list">
+                <div class="main-nav clearfix" id="j-main-nav">
+                    <ul class="clearfix fl">
+                        <li>
+                            <a class="action" href="/">
+                                最新鲜
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/zuigaoxiao">
+                                最搞笑
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/zuirenao">
+                                最热闹
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="notice">
+                        <!--<a href="/about/jiongbi.html">
+            <b>公告：</b>囧币规则</a>-->
+                    </p>
+                </div>
+                <div class="side-nav" id="j-side-nav">
+                    <ul class="clearfix" style="position: static;">
+                        <li class="cur">
+                            <a href="/">
+                                首页
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tag/妹子" title="妹子搞笑图片">
+                                妹子
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tag/恶搞" title="恶搞搞笑图片">
+                                恶搞
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/gaoxiaogif" title="搞笑GIF">
+                                动图
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tag/儿童" title="儿童搞笑图片">
+                                儿童
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 笑话列表-开始 -->
+                <?php foreach($article as $v):?>
+                <dl class="main-list">
+                    <dt>
+                        <a href="http://www.funjpg.com/tupian/28870.html" target="_blank">
+                            <img src="http://www.funjpg.com/wp-content/themes/xiaodong/images/qrcode.png"/>
+                        </a>
+                        <p class="user">
+                            <a href="http://www.funjpg.com/tupian/28870.html">
+                                <?php echo $v['post_title'];?>
+                            </a>
+                        </p>
+                        <span class="title">
+                            <a href="http://www.funjpg.com/tupian/28870.html" target="_blank">
+                                <?php echo $v['post_title'];?>
+                            </a>
+                        </span>
+                    </dt>
+                    <dd class="content j-funny">
+                        <p>
+                            <?php echo $v['post_content'];?>
+                        </p>
+                    </dd>
+                    <dd class="operation clearfix">
+                        <div class="operation-btn">
+                            <a class="lbg-style1 like-28870 jlk ding" data-nonce="98e7e709c7" data-post_id="28870" data-task="like" href="javascript:void(0)" rel="nofollow">
+                                <div class="dingcai">
+                                    <span>
+                                    </span>
+                                    <i class="lc-28870 lc">
+                                        0
+                                    </i>
+                                </div>
+                            </a>
+                            <div class="operation-line">
+                            </div>
+                        </div>
+                        <div class="operation-btn">
+                            <a class="unlbg-style1 unlike-28870 jlk cai" data-nonce="98e7e709c7" data-post_id="28870" data-task="unlike" href="javascript:void(0)" rel="nofollow">
+                                <div class="dingcai">
+                                    <span>
+                                    </span>
+                                    <i class="unlc-28870 unlc">
+                                        0
+                                    </i>
+                                </div>
+                            </a>
+                            <div class="operation-line">
+                            </div>
+                        </div>
+                        <div class="operation-btn">
+                            <a class="index-comment comment" href="javascript:void(0)" onclick="toggleDuoshuoComments('#comment-box-28870', '28870', 'http://www.funjpg.com/tupian/28870.html');" title="评论">
+                                <div class="dingcai">
+                                    <span>
+                                    </span>
+                                    <i>
+                                        1
+                                    </i>
+                                </div>
+                            </a>
+                            <div class="operation-line">
+                            </div>
+                        </div>
+                        <div class="share-box clearfix">
+                            <div id="sharebd">
+                                <div class="bdsharebuttonbox">
+                                    <a class="bds_more" data-cmd="more" href="#">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<a class="reward" href="javascript:void(0)" data-award="0" id="">打赏</a>-->
+                    </dd>
+                    <div id="comment-box-28870">
+                    </div>
+                </dl>
+                <?php endforeach;?>
+                <div class="joke-buy-box" id="reward" style="display: none; top: 0; left: 0;">
+                </div>
+                <img src="http://www.funjpg.com/wp-content/themes/xiaodong/Assets/index/images/loading.gif" style="width: 0; height: 0; display: none;">
+                    <!-- 笑话列表-结束 -->
+                    <div class="comment">
+                        <div class="page">
+                           <?php echo $article->render();?>
+                        </div>
+                    </div>
+                </img>
+            </div>
+            <div class="main-right fr">
+                <ul class="user-operation">
+                    <dl class="text-list">
+                        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+                        </script>
+                        <!-- funjpg -->
+                        <ins class="adsbygoogle" data-ad-client="ca-pub-9099225650763414" data-ad-format="auto" data-ad-slot="6256667616" style="display:block">
+                        </ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </dl>
+                </ul>
+                <!-- Column 2 / Sidebar -->
+                <!-- 妹子搞笑图片 -->
+                <dl class="img-list">
+                    <dt>
+                        <h2>
+                            妹子搞笑图片
+                        </h2>
+                    </dt>
+                    <dd class="clearfix">
+                        <!--根据评论数-->
+                        <a href="http://www.funjpg.com/tupian/26007.html">
+                            <div>
+                                <img alt="西安的妹纸吃饭太霸气了！！！" src="http://img.funjpg.com/pic/2014/02/t01c17c338a3919c562.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                西安的妹纸吃饭太霸气了！！！
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/18066.html">
+                            <div>
+                                <img alt="这是比爷们抽烟还霸气" src="http://img.funjpg.com/pic/2013/01/20121111221712636.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                这是比爷们抽烟还霸气
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/9454.html">
+                            <div>
+                                <img alt="当你在超市买东西遇到这样的情景会肿么办？？" src="http://img.funjpg.com/pic/2012/07/5111356.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                当你在超市买东西遇到这样的情景会肿么办？？
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/13099.html">
+                            <div>
+                                <img alt="据说这是国庆节在西湖边上排队上厕所的妹子，尼玛！伤不起啊！" src="http://img.funjpg.com/pic/2012/10/app7836839.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                据说这是国庆节在西湖边上排队上厕所的妹子，尼玛！伤不起啊！
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/27428.html">
+                            <div>
+                                <img alt="颜值高功夫也好" src="http://img.funjpg.com/pic/2016/07/b5701e75637de5d2bb3a.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                颜值高功夫也好
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/18099.html">
+                            <div>
+                                <img alt="妹子真的被吓到了" src="http://img.funjpg.com/pic/2013/01/5445211445-600x380.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                妹子真的被吓到了
+                            </span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="img-list">
+                    <dt>
+                        <h2>
+                            恶搞搞笑图片
+                        </h2>
+                    </dt>
+                    <dd class="clearfix">
+                        <!--根据评论数-->
+                        <a href="http://www.funjpg.com/tupian/23955.html">
+                            <div>
+                                <img alt="胸罩的另一用途，长见识了吗？" src="http://img.funjpg.com/pic/2013/12/788942708933.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                胸罩的另一用途，长见识了吗？
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/17841.html">
+                            <div>
+                                <img alt="华妃要被你们玩坏了。。。。" src="http://img.funjpg.com/pic/2013/01/AWBMLZOCA37F.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                华妃要被你们玩坏了。。。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/28513.html">
+                            <div>
+                                <img alt="狐狸尾巴露出来了" src="http://img.funjpg.com/pic/2016/11/537a32966619480a296e.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                狐狸尾巴露出来了
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/19593.html">
+                            <div>
+                                <img alt="孩子都要被你们玩坏了。。" src="http://img.funjpg.com/pic/2013/05/4234455115.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                孩子都要被你们玩坏了。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/11470.html">
+                            <div>
+                                <img alt="前方插日旗的是什么地方。。。" src="http://img.funjpg.com/pic/2012/08/11254-600x426.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                前方插日旗的是什么地方。。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/19554.html">
+                            <div>
+                                <img alt="最恶毒的惩罚" src="http://img.funjpg.com/pic/2013/05/0032154775.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                最恶毒的惩罚
+                            </span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="img-list">
+                    <dt>
+                        <h2>
+                            儿童搞笑图片
+                        </h2>
+                    </dt>
+                    <dd class="clearfix">
+                        <!--根据评论数-->
+                        <a href="http://www.funjpg.com/tupian/18988.html">
+                            <div>
+                                <img alt="小哥，看你娴熟的姿势、销魂的装扮，祖国的未来就靠你啦。。" src="http://img.funjpg.com/pic/2013/03/9954541.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                小哥，看你娴熟的姿势、销魂的装扮，祖国的未来就靠你啦。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/8994.html">
+                            <div>
+                                <img alt="小时候最怕的梦是梦到自己在找厕所，最最可怕的是，人还没有醒过来，而厕所找到了。。。" src="http://img.funjpg.com/pic/2012/07/234455t221.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                小时候最怕的梦是梦到自己在找厕所，最最可怕的是，人还没有醒过来，而厕所找到了。。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/8808.html">
+                            <div>
+                                <img alt="小盆友，这个椅子不是这么坐的。。。" src="http://img.funjpg.com/pic/2012/06/94d9c01fjw1du516op5hjj.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                小盆友，这个椅子不是这么坐的。。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/24139.html">
+                            <div>
+                                <img alt="男孩子之间的战争" src="http://img.funjpg.com/pic/2013/12/2013vcc125211213628.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                男孩子之间的战争
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/14721.html">
+                            <div>
+                                <img alt="洗洗更健康" src="http://img.funjpg.com/pic/2012/11/0IH164V-0.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                洗洗更健康
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/9106.html">
+                            <div>
+                                <img alt="你的胳膊有我粗么？~" src="http://img.funjpg.com/pic/2012/07/4234t22114.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                你的胳膊有我粗么？~
+                            </span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="tags-list">
+                    <dt>
+                        标签云
+                    </dt>
+                    <dd>
+                        <a aria-label="cosplay (13个项目)" class="tag-cloud-link tag-link-1865 tag-link-position-1" href="http://www.funjpg.com/tag/cosplay" style="font-size: 8pt;">
+                            cosplay
+                        </a>
+                        <a aria-label="PS (33个项目)" class="tag-cloud-link tag-link-539 tag-link-position-2" href="http://www.funjpg.com/tag/ps" style="font-size: 10.607843137255pt;">
+                            PS
+                        </a>
+                        <a aria-label="主银 (25个项目)" class="tag-cloud-link tag-link-725 tag-link-position-3" href="http://www.funjpg.com/tag/%e4%b8%bb%e9%93%b6" style="font-size: 9.7843137254902pt;">
+                            主银
+                        </a>
+                        <a aria-label="交通 (51个项目)" class="tag-cloud-link tag-link-825 tag-link-position-4" href="http://www.funjpg.com/tag/%e4%ba%a4%e9%80%9a" style="font-size: 11.911764705882pt;">
+                            交通
+                        </a>
+                        <a aria-label="亮点 (28个项目)" class="tag-cloud-link tag-link-73 tag-link-position-5" href="http://www.funjpg.com/tag/%e4%ba%ae%e7%82%b9" style="font-size: 10.127450980392pt;">
+                            亮点
+                        </a>
+                        <a aria-label="伤不起 (27个项目)" class="tag-cloud-link tag-link-118 tag-link-position-6" href="http://www.funjpg.com/tag/%e4%bc%a4%e4%b8%8d%e8%b5%b7" style="font-size: 10.058823529412pt;">
+                            伤不起
+                        </a>
+                        <a aria-label="体育 (46个项目)" class="tag-cloud-link tag-link-599 tag-link-position-7" href="http://www.funjpg.com/tag/%e4%bd%93%e8%82%b2" style="font-size: 11.56862745098pt;">
+                            体育
+                        </a>
+                        <a aria-label="儿童 (186个项目)" class="tag-cloud-link tag-link-301 tag-link-position-8" href="http://www.funjpg.com/tag/%e5%84%bf%e7%ab%a5" style="font-size: 15.686274509804pt;">
+                            儿童
+                        </a>
+                        <a aria-label="内涵 (23个项目)" class="tag-cloud-link tag-link-460 tag-link-position-9" href="http://www.funjpg.com/tag/%e5%86%85%e6%b6%b5" style="font-size: 9.578431372549pt;">
+                            内涵
+                        </a>
+                        <a aria-label="动物 (128个项目)" class="tag-cloud-link tag-link-273 tag-link-position-10" href="http://www.funjpg.com/tag/%e5%8a%a8%e7%89%a9" style="font-size: 14.588235294118pt;">
+                            动物
+                        </a>
+                        <a aria-label="卖萌 (18个项目)" class="tag-cloud-link tag-link-174 tag-link-position-11" href="http://www.funjpg.com/tag/%e5%8d%96%e8%90%8c" style="font-size: 8.8921568627451pt;">
+                            卖萌
+                        </a>
+                        <a aria-label="厕所 (22个项目)" class="tag-cloud-link tag-link-1418 tag-link-position-12" href="http://www.funjpg.com/tag/%e5%8e%95%e6%89%80" style="font-size: 9.4411764705882pt;">
+                            厕所
+                        </a>
+                        <a aria-label="发型 (53个项目)" class="tag-cloud-link tag-link-238 tag-link-position-13" href="http://www.funjpg.com/tag/%e5%8f%91%e5%9e%8b" style="font-size: 11.980392156863pt;">
+                            发型
+                        </a>
+                        <a aria-label="喵星人 (110个项目)" class="tag-cloud-link tag-link-1878 tag-link-position-14" href="http://www.funjpg.com/tag/%e5%96%b5%e6%98%9f%e4%ba%ba" style="font-size: 14.176470588235pt;">
+                            喵星人
+                        </a>
+                        <a aria-label="地铁 (18个项目)" class="tag-cloud-link tag-link-232 tag-link-position-15" href="http://www.funjpg.com/tag/%e5%9c%b0%e9%93%81" style="font-size: 8.8921568627451pt;">
+                            地铁
+                        </a>
+                        <a aria-label="坑爹 (18个项目)" class="tag-cloud-link tag-link-202 tag-link-position-16" href="http://www.funjpg.com/tag/%e5%9d%91%e7%88%b9" style="font-size: 8.8921568627451pt;">
+                            坑爹
+                        </a>
+                        <a aria-label="基友 (16个项目)" class="tag-cloud-link tag-link-1853 tag-link-position-17" href="http://www.funjpg.com/tag/%e5%9f%ba%e5%8f%8b" style="font-size: 8.5490196078431pt;">
+                            基友
+                        </a>
+                        <a aria-label="大叔 (59个项目)" class="tag-cloud-link tag-link-49 tag-link-position-18" href="http://www.funjpg.com/tag/%e5%a4%a7%e5%8f%94" style="font-size: 12.323529411765pt;">
+                            大叔
+                        </a>
+                        <a aria-label="女汉子 (17个项目)" class="tag-cloud-link tag-link-2800 tag-link-position-19" href="http://www.funjpg.com/tag/%e5%a5%b3%e6%b1%89%e5%ad%90" style="font-size: 8.7549019607843pt;">
+                            女汉子
+                        </a>
+                        <a aria-label="妹子 (398个项目)" class="tag-cloud-link tag-link-167 tag-link-position-20" href="http://www.funjpg.com/tag/%e5%a6%b9%e5%ad%90" style="font-size: 17.950980392157pt;">
+                            妹子
+                        </a>
+                        <a aria-label="屌丝 (55个项目)" class="tag-cloud-link tag-link-2045 tag-link-position-21" href="http://www.funjpg.com/tag/%e5%b1%8c%e4%b8%9d" style="font-size: 12.117647058824pt;">
+                            屌丝
+                        </a>
+                        <a aria-label="广告 (13个项目)" class="tag-cloud-link tag-link-25 tag-link-position-22" href="http://www.funjpg.com/tag/%e5%b9%bf%e5%91%8a" style="font-size: 8pt;">
+                            广告
+                        </a>
+                        <a aria-label="恶搞 (1,546个项目)" class="tag-cloud-link tag-link-283 tag-link-position-23" href="http://www.funjpg.com/tag/%e6%81%b6%e6%90%9e" style="font-size: 22pt;">
+                            恶搞
+                        </a>
+                        <a aria-label="找亮点 (17个项目)" class="tag-cloud-link tag-link-2805 tag-link-position-24" href="http://www.funjpg.com/tag/%e6%89%be%e4%ba%ae%e7%82%b9" style="font-size: 8.7549019607843pt;">
+                            找亮点
+                        </a>
+                        <a aria-label="抢镜头 (18个项目)" class="tag-cloud-link tag-link-1713 tag-link-position-25" href="http://www.funjpg.com/tag/%e6%8a%a2%e9%95%9c%e5%a4%b4" style="font-size: 8.8921568627451pt;">
+                            抢镜头
+                        </a>
+                        <a aria-label="搞笑 (18个项目)" class="tag-cloud-link tag-link-198 tag-link-position-26" href="http://www.funjpg.com/tag/%e6%90%9e%e7%ac%91" style="font-size: 8.8921568627451pt;">
+                            搞笑
+                        </a>
+                        <a aria-label="标语 (15个项目)" class="tag-cloud-link tag-link-379 tag-link-position-27" href="http://www.funjpg.com/tag/%e6%a0%87%e8%af%ad" style="font-size: 8.343137254902pt;">
+                            标语
+                        </a>
+                        <a aria-label="汪星人 (23个项目)" class="tag-cloud-link tag-link-2146 tag-link-position-28" href="http://www.funjpg.com/tag/%e6%b1%aa%e6%98%9f%e4%ba%ba" style="font-size: 9.578431372549pt;">
+                            汪星人
+                        </a>
+                        <a aria-label="汽车 (17个项目)" class="tag-cloud-link tag-link-1603 tag-link-position-29" href="http://www.funjpg.com/tag/%e6%b1%bd%e8%bd%a6" style="font-size: 8.7549019607843pt;">
+                            汽车
+                        </a>
+                        <a aria-label="漫画 (55个项目)" class="tag-cloud-link tag-link-29 tag-link-position-30" href="http://www.funjpg.com/tag/%e6%bc%ab%e7%94%bb" style="font-size: 12.117647058824pt;">
+                            漫画
+                        </a>
+                        <a aria-label="牛人 (75个项目)" class="tag-cloud-link tag-link-268 tag-link-position-31" href="http://www.funjpg.com/tag/%e7%89%9b%e4%ba%ba" style="font-size: 13.009803921569pt;">
+                            牛人
+                        </a>
+                        <a aria-label="狗狗 (311个项目)" class="tag-cloud-link tag-link-133 tag-link-position-32" href="http://www.funjpg.com/tag/%e7%8b%97%e7%8b%97" style="font-size: 17.196078431373pt;">
+                            狗狗
+                        </a>
+                        <a aria-label="猫咪 (207个项目)" class="tag-cloud-link tag-link-114 tag-link-position-33" href="http://www.funjpg.com/tag/%e7%8c%ab%e5%92%aa" style="font-size: 16.029411764706pt;">
+                            猫咪
+                        </a>
+                        <a aria-label="睡姿 (17个项目)" class="tag-cloud-link tag-link-2010 tag-link-position-34" href="http://www.funjpg.com/tag/%e7%9d%a1%e5%a7%bf" style="font-size: 8.7549019607843pt;">
+                            睡姿
+                        </a>
+                        <a aria-label="美女 (34个项目)" class="tag-cloud-link tag-link-193 tag-link-position-35" href="http://www.funjpg.com/tag/%e7%be%8e%e5%a5%b3" style="font-size: 10.676470588235pt;">
+                            美女
+                        </a>
+                        <a aria-label="脑残对话 (51个项目)" class="tag-cloud-link tag-link-2735 tag-link-position-36" href="http://www.funjpg.com/tag/%e8%84%91%e6%ae%8b%e5%af%b9%e8%af%9d" style="font-size: 11.911764705882pt;">
+                            脑残对话
+                        </a>
+                        <a aria-label="自拍 (13个项目)" class="tag-cloud-link tag-link-550 tag-link-position-37" href="http://www.funjpg.com/tag/%e8%87%aa%e6%8b%8d" style="font-size: 8pt;">
+                            自拍
+                        </a>
+                        <a aria-label="衣服 (21个项目)" class="tag-cloud-link tag-link-589 tag-link-position-38" href="http://www.funjpg.com/tag/%e8%a1%a3%e6%9c%8d" style="font-size: 9.3039215686275pt;">
+                            衣服
+                        </a>
+                        <a aria-label="表情 (25个项目)" class="tag-cloud-link tag-link-134 tag-link-position-39" href="http://www.funjpg.com/tag/%e8%a1%a8%e6%83%85" style="font-size: 9.7843137254902pt;">
+                            表情
+                        </a>
+                        <a aria-label="超市 (17个项目)" class="tag-cloud-link tag-link-1168 tag-link-position-40" href="http://www.funjpg.com/tag/%e8%b6%85%e5%b8%82" style="font-size: 8.7549019607843pt;">
+                            超市
+                        </a>
+                        <a aria-label="邪恶 (46个项目)" class="tag-cloud-link tag-link-917 tag-link-position-41" href="http://www.funjpg.com/tag/%e9%82%aa%e6%81%b6" style="font-size: 11.56862745098pt;">
+                            邪恶
+                        </a>
+                        <a aria-label="重口味 (15个项目)" class="tag-cloud-link tag-link-993 tag-link-position-42" href="http://www.funjpg.com/tag/%e9%87%8d%e5%8f%a3%e5%91%b3" style="font-size: 8.343137254902pt;">
+                            重口味
+                        </a>
+                        <a aria-label="销魂 (15个项目)" class="tag-cloud-link tag-link-79 tag-link-position-43" href="http://www.funjpg.com/tag/%e9%94%80%e9%ad%82" style="font-size: 8.343137254902pt;">
+                            销魂
+                        </a>
+                        <a aria-label="霸气 (53个项目)" class="tag-cloud-link tag-link-320 tag-link-position-44" href="http://www.funjpg.com/tag/%e9%9c%b8%e6%b0%94" style="font-size: 11.980392156863pt;">
+                            霸气
+                        </a>
+                        <a aria-label="高手 (17个项目)" class="tag-cloud-link tag-link-169 tag-link-position-45" href="http://www.funjpg.com/tag/%e9%ab%98%e6%89%8b" style="font-size: 8.7549019607843pt;">
+                            高手
+                        </a>
+                    </dd>
+                </dl>
+                <!--精彩图片-->
+                <dl class="img-list">
+                    <dt>
+                        <h2>
+                            随机搞笑图片
+                        </h2>
+                    </dt>
+                    <dd class="clearfix">
+                        <!--根据评论数-->
+                        <a href="http://www.funjpg.com/tupian/4267.html">
+                            <div>
+                                <img alt="这蘑菇长的太有喜感了!" src="http://img.funjpg.com/pic/2012/02/43522676.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                这蘑菇长的太有喜感了!
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/19067.html">
+                            <div>
+                                <img alt="奶奶你的脖子有多长" src="http://img.funjpg.com/pic/2013/03/5646547.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                奶奶你的脖子有多长
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/22190.html">
+                            <div>
+                                <img alt="大叔这是准备走性感路线吗" src="http://img.funjpg.com/pic/2013/09/1867396535.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                大叔这是准备走性感路线吗
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/20504.html">
+                            <div>
+                                <img alt="细看3秒你会发觉很诡异" src="http://img.funjpg.com/pic/2013/07/20130714115632.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                细看3秒你会发觉很诡异
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/13664.html">
+                            <div>
+                                <img alt="这个摩托车后座，真心碉堡了。。。。" src="http://img.funjpg.com/pic/2012/10/200026.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                这个摩托车后座，真心碉堡了。。。。
+                            </span>
+                        </a>
+                        <a href="http://www.funjpg.com/tupian/2931.html">
+                            <div>
+                                <img alt="情不自禁的狗狗" src="http://img.funjpg.com/pic/2011/12/201115174148862.jpg@!thumbnail"/>
+                            </div>
+                            <span>
+                                情不自禁的狗狗
+                            </span>
+                        </a>
+                    </dd>
+                </dl>
+                <dl class="text-list">
+                    <form action="http://www.funjpg.com/" class="searchform" id="searchform" method="get" role="search">
+                        <div>
+                            <label class="screen-reader-text" for="s">
+                                搜索：
+                            </label>
+                            <input id="s" name="s" type="text" value=""/>
+                            <input id="searchsubmit" type="submit" value="搜索"/>
+                        </div>
+                    </form>
+                </dl>
+            </div>
+            <div class="hr grid_12 clearfix">
+            </div>
+        </div>
+        <!-- 主体内容-结束 -->
+        {include file="footer"}
+    </body>
+</html>
+<!--83 queries in 0.193 seconds.-->
+<!-- Dynamic page generated in 0.188 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-06-07 20:58:07 -->
+<!-- Compression = gzip -->
