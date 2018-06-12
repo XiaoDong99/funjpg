@@ -6,9 +6,8 @@ class Index extends Base
 {
     public function index()
     {
-        echo config('view_path') . 'index.html';
-        exit;
-        return $this->fetch(config('view_path') . 'index.html');
+
+        return $this->fetch('index.html');
     }
 
 }
