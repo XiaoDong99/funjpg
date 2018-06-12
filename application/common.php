@@ -10,3 +10,8 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+function getCategorys()
+{
+	$cat_list = \think\Db::name('terms')->select();
+	return $cat_list;
+}
