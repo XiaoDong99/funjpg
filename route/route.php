@@ -16,6 +16,7 @@ Route::get('think', function () {
 Route::get('hello/:name', 'index/hello');
 
 Route::get('admin', 'admin/index/index');
+Route::get('tupian', 'index/index/tupian');
 
 return [
 
