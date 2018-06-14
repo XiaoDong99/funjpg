@@ -77,7 +77,7 @@ class Index extends Controller
 
     public function hello($name = 'ThinkPHP5')
     {
-        $res = Db::name()->where('id', $id)->setField();
+//        $res = Db::name()->where('id', $id)->setField();
         return 'hello,' . $name;
     }
 
