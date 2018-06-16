@@ -15,8 +15,8 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 
-Route::get('admin', 'admin/index/index');
-Route::get('tupian', 'index/index/tupian');
+Route::get('admin', 'admin/index/index', ['ext' => '']);
+Route::get('tupian', 'index/Category/tupian', ['ext'=>'']);
 
 return [
 
